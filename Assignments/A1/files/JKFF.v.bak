@@ -1,0 +1,19 @@
+module JKFF(
+	Q,
+	~Q,
+	CLK,
+	J,
+	K
+);
+
+wire N1_OUT;
+wire N2_OUT;
+input J, K, CLK;
+output Q, ~Q;
+
+nand(N1_OUT, J, CLK, ~Q);
+nand(N2_OUT, K , CLK, Q);
+nand(Q, ~Q, N1_OUT);
+nand(~Q, Q, N2_OUT);
+
+endmodule

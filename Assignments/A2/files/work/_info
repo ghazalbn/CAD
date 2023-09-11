@@ -1,0 +1,353 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1650532623
+V9gF4dcc_0V7bNz:c3=4I73
+04 13 4 work ALU_TestBench fast 0
+=1-f4d1088ea049-6261210e-2fb-49dc
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1650536083
+VW[U`815hW]:W]afHR9RLd2
+04 15 4 work CACHE_TestBench fast 0
+=1-f4d1088ea049-62612e92-321-5ddc
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1650531459
+VHRPYo13jhAL34<PNL4;9^3
+04 19 4 work PriorityQ_TestBench fast 0
+=1-f4d1088ea049-62611c82-3a5-3ee8
+R1
+R2
+n@_opt2
+R3
+R0
+vALU
+Z4 !s110 1650524524
+!i10b 1
+!s100 j?8EMHG[;NCHh8bMn:jO^0
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPnWXgh[Xi9Y4oU9m^;DNM0
+Z6 dD:/uni/cad/assignments/A2
+Z7 w1650464230
+Z8 8D:/uni/cad/assignments/A2/Q1.v
+Z9 FD:/uni/cad/assignments/A2/Q1.v
+!i122 23
+L0 100 28
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1650524523.000000
+Z13 !s107 D:/uni/cad/assignments/A2/Q1.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q1.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALU_TestBench
+!s110 1650524556
+!i10b 1
+!s100 9>:c6i?:TL?Fn<:1zQRLz0
+R5
+I@?RVO3DDIU[J@N@4Cc=zL0
+R6
+w1650465393
+8D:/uni/cad/assignments/A2/Q1_TEST.v
+FD:/uni/cad/assignments/A2/Q1_TEST.v
+!i122 24
+L0 2 26
+R10
+R11
+r1
+!s85 0
+31
+!s108 1650524556.000000
+!s107 D:/uni/cad/assignments/A2/Q1_TEST.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q1_TEST.v|
+!i113 0
+R15
+R2
+n@a@l@u_@test@bench
+vCache_Controller
+!s110 1650536397
+!i10b 1
+!s100 PdacP@bDJgf5Z7QWCdT2b3
+R5
+I<cS@Ci0LS1j5FoH2Q`@CE3
+R6
+w1650536365
+8D:/uni/cad/assignments/A2/Q2.v
+FD:/uni/cad/assignments/A2/Q2.v
+!i122 44
+L0 1 48
+R10
+R11
+r1
+!s85 0
+31
+!s108 1650536397.000000
+!s107 D:/uni/cad/assignments/A2/Q2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q2.v|
+!i113 0
+R15
+R2
+n@cache_@controller
+vCACHE_TestBench
+!s110 1650536403
+!i10b 1
+!s100 D4<gbCoR9mKPV;=m4Bf]20
+R5
+Ia[5c=]D]N`=>i5Zh5nTIQ1
+R6
+w1650536372
+8D:/uni/cad/assignments/A2/Q2_TEST.v
+FD:/uni/cad/assignments/A2/Q2_TEST.v
+!i122 45
+L0 1 47
+R10
+R11
+r1
+!s85 0
+31
+!s108 1650536403.000000
+!s107 D:/uni/cad/assignments/A2/Q2_TEST.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q2_TEST.v|
+!i113 0
+R15
+R2
+n@c@a@c@h@e_@test@bench
+vDIV
+Z16 !s110 1650524523
+!i10b 1
+!s100 lmJGdSQV_j:_^[UUBg4mA2
+R5
+I>_PW1?hPzLDl5QW>ONAVf1
+R6
+R7
+R8
+R9
+!i122 23
+L0 29 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@d@i@v
+vGCD
+R4
+!i10b 1
+!s100 o22m:o4lflT=dMdi;bSK=3
+R5
+I:;i=^kjaQ?QZBB8kcA@^L2
+R6
+R7
+R8
+R9
+!i122 23
+L0 38 26
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@g@c@d
+vMUL
+R16
+!i10b 1
+!s100 GTd>k39?<eZb4c:jd^m;<0
+R5
+I7NEPdXVWI6:S_F]@]20`91
+R6
+R7
+R8
+R9
+!i122 23
+L0 21 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@u@l
+vMUX
+R4
+!i10b 1
+!s100 GB5R<?Mnfl3ONeaP7K80k3
+R5
+Ie`S1@RQ5UzH?Wc@TmLBig0
+R6
+R7
+R8
+R9
+!i122 23
+L0 75 23
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@m@u@x
+vPOWER
+R4
+!i10b 1
+!s100 UAF9^:B]U?4mjjfPi983G0
+R5
+IkgV866R_koW^`AdLPZEYz1
+R6
+R7
+R8
+R9
+!i122 23
+L0 66 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@p@o@w@e@r
+vPriorityQ
+!s110 1650531437
+!i10b 1
+!s100 IJDk^UVglV;oOA_=c][Me0
+R5
+IF>E=jO`VE:jXg`GWaSBDG3
+R6
+w1650531177
+8D:/uni/cad/assignments/A2/Q3.v
+FD:/uni/cad/assignments/A2/Q3.v
+!i122 40
+L0 2 43
+R10
+R11
+r1
+!s85 0
+31
+!s108 1650531437.000000
+!s107 D:/uni/cad/assignments/A2/Q3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q3.v|
+!i113 0
+R15
+R2
+n@priority@q
+vPriorityQ_TestBench
+!s110 1650531443
+!i10b 1
+!s100 a@TfloA6=1PgGSi[C:il63
+R5
+IXnXZQRh_nj0]YIK2G`=CJ0
+R6
+w1650531414
+8D:/uni/cad/assignments/A2/Q3_TEST.v
+FD:/uni/cad/assignments/A2/Q3_TEST.v
+!i122 41
+L0 2 49
+R10
+R11
+r1
+!s85 0
+31
+!s108 1650531443.000000
+!s107 D:/uni/cad/assignments/A2/Q3_TEST.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A2/Q3_TEST.v|
+!i113 0
+R15
+R2
+n@priority@q_@test@bench
+vSUB
+R16
+!i10b 1
+!s100 W@YCV2Yld_K^KF1@OB[0g1
+R5
+IH`KADfI9f_foV@g:=Oo_o3
+R6
+R7
+R8
+R9
+!i122 23
+L0 12 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@s@u@b
+vSUM
+R16
+!i10b 1
+!s100 6@oCd1MMo1emQ2V@4<?mH3
+R5
+IKN`oe1fJd4I@`d]FOn7k]1
+R6
+R7
+R8
+R9
+!i122 23
+L0 2 7
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@s@u@m

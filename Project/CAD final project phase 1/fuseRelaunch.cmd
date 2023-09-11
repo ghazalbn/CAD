@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/uni/cad/project3/CAD_final_project/ALU_tb_isim_beh.exe" -prj "D:/uni/cad/project3/CAD_final_project/ALU_tb_beh.prj" "work.ALU_tb" 

@@ -1,0 +1,77 @@
+D:/uni/cad/assignments/A4/Q5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q5.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Perceptron
+-- Compiling architecture Behavioral of Perceptron
+-- Compiling entity MLP
+-- Compiling architecture Behavioral of MLP
+
+} {} {}} D:/uni/cad/assignments/A4/Q2_Test.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q2_Test.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity UnaryToBinary_Test
+-- Compiling architecture behavior of UnaryToBinary_Test
+** Warning: D:/uni/cad/assignments/A4/Q2_Test.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} D:/uni/cad/assignments/A4/Q1.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q1.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SerialToParallel
+-- Compiling architecture Behavioral of SerialToParallel
+** Warning: D:/uni/cad/assignments/A4/Q1.vhd(20): (vcom-1236) Shared variables must be of a protected type.
+
+} {} {}} D:/uni/cad/assignments/A4/Q3_Test.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q3_Test.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BCDToBinary_Test
+-- Compiling architecture behavior of BCDToBinary_Test
+** Warning: D:/uni/cad/assignments/A4/Q3_Test.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} D:/uni/cad/assignments/A4/Q2.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q2.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity UnaryToBinary
+-- Compiling architecture Behavioral of UnaryToBinary
+** Warning: D:/uni/cad/assignments/A4/Q2.vhd(17): (vcom-1236) Shared variables must be of a protected type.
+
+} {} {}} D:/uni/cad/assignments/A4/Q3.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q3.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BCDToBinary
+-- Compiling architecture Behavioral of BCDToBinary
+
+} {} {}} D:/uni/cad/assignments/A4/Q1_Test.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q1_Test.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SerialToParallel_Test
+-- Compiling architecture behavior of SerialToParallel_Test
+
+} {} {}} D:/uni/cad/assignments/A4/Q5_Test.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/uni/cad/assignments/A4/Q5_Test.vhd
+Model Technology ModelSim SE-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MLP_Test
+-- Compiling architecture behavior of MLP_Test
+
+} {} {}}

@@ -1,0 +1,4 @@
+vhdl work "ALU_utility_functions.vhd"
+vhdl work "ALU_Procedure.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ALU_tb.vhd"

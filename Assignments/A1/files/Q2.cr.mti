@@ -1,0 +1,9 @@
+D:/uni/cad/assignments/A1/Add_Sub.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A1/Add_Sub.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Add_Sub
+-- Compiling module FA
+
+Top level modules:
+	Add_Sub
+
+} {} {}}

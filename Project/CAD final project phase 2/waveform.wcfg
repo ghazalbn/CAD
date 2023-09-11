@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/uni/cad/project3/CAD_final_project/ALU_Test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="alu_procedure" />
+            <top_module name="alu_test" />
+            <top_module name="alu_utility_functions" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/alu_test/regout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regout[2:0]</obj_property>
+      <obj_property name="ObjectShortName">regout[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/op1in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op1in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op1in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/op2in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op2in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op2in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/op3in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op3in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">op3in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/number1in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">number1in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">number1in[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/number2in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">number2in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">number2in[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/number3in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">number3in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">number3in[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/number4in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">number4in[8:0]</obj_property>
+      <obj_property name="ObjectShortName">number4in[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registers[0:7]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:7]</obj_property>
+      <wvobject fp_name="/alu_test/registers[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0]</obj_property>
+         <wvobject fp_name="/alu_test/registers[0][7]" type="logic" db_ref_id="1">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][7]</obj_property>
+            <obj_property name="label">[7]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][6]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][6]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][5]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][5]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][4]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][4]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][3]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][3]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][2]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][2]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][1]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][1]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/alu_test/registers[0][0]" type="logic" db_ref_id="1">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">registers[0][0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">registers[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">registers[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">registers[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">registers[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">registers[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">registers[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/alu_test/registers[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">registers[7]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/alu_test/out1signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out1signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out1signal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/out2signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out2signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out2signal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/out3signal" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out3signal[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out3signal[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/alu_test/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+</wave_config>

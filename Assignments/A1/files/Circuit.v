@@ -1,0 +1,104 @@
+//Q2
+//Bakhshande
+
+module Circuit(
+	F, A, B, C, D
+);
+	
+wire A_NOT, B_NOT, Dout[7:0], Eout[2:0], one;
+input A, B, C, D;
+output F;
+
+not(A_NOT, A);
+not(B_NOT, B);
+buf(one, 1);
+
+Decoder DEC(
+	Dout[7], Dout[6], Dout[5],
+	Dout[4], Dout[3], Dout[2],
+	Dout[1], Dout[0], B_NOT,
+	A_NOT, A, B
+);
+Encoder ENC(
+	Eout[2], Eout[1], Eout[0],
+	Dout[7], Dout[6], Dout[5],
+	Dout[4], Dout[3], Dout[2],
+	Dout[1], Dout[0], B_NOT
+);	
+MUX M(F, Eout[2], Eout[1], Eout[0], one, C, D);
+
+endmodule
+
+
+
+module Decoder(
+    	D7, D6, D5, 
+	D4, D3, D2, 
+	D1, D0, E,
+    	A2, A1, A0
+);
+
+wire A0_NOT, A1_NOT, A2_NOT, E_NOT;
+input A2, A1, A0, E;
+output D7, D6, D5, D4, D3, D2, D1, D0;
+
+not(A0_NOT, A0);
+not(A1_NOT, A1);
+not(A2_NOT, A2);
+not(E_NOT, E); //active-low
+
+and(D0, A2_NOT, A1_NOT, A0_NOT, E_NOT); //000
+and(D1, A2_NOT, A1_NOT, A0, E_NOT);     //001
+and(D2, A2_NOT, A1, A0_NOT, E_NOT);     //010
+and(D3, A2_NOT, A1, A0, E_NOT);         //011
+and(D4, A2, A1_NOT, A0_NOT, E_NOT);     //100
+and(D5, A2, A1_NOT, A0, E_NOT);         //101
+and(D6, A2, A1, A0_NOT, E_NOT);         //110
+and(D7, A2, A1, A0, E_NOT);             //111
+
+endmodule
+
+
+module Encoder(
+	A2, A1, A0,
+    	D7, D6, D5, 
+	D4, D3, D2, 
+	D1, D0, E
+);
+
+wire O0, O1, O2, E_NOT;
+input D7, D6, D5, D4, D3, D2, D1, D0, E;
+output A2, A1, A0;
+
+not(E_NOT, E); //active-low
+
+or(O2,D4,D5,D6,D7);
+or(O1,D2,D3,D6,D7);
+or(O0,D1,D3,D5,D7);
+
+and(A0, O0, E_NOT);
+and(A1, O1, E_NOT);
+and(A2, O2, E_NOT);
+
+endmodule
+
+
+module MUX(
+	OUT, 
+	A0, A1, A2, A3, 
+	S1, S0
+);
+
+wire S0_NOT, S1_NOT, O1, O2, O3, O4;
+input A0, A1, A2, A3, S0, S1;
+output OUT;
+
+not(S0_NOT, S0);
+not(S1_NOT, S1);
+and(O1, A0, S0_NOT, S1_NOT);
+and(O2, A1, S1_NOT, S0);
+and(O3, A2, S1, S0_NOT);
+and(O4, A3, S0, S1);
+or(OUT, O1, O2, O3, O4);
+
+endmodule

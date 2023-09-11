@@ -1,0 +1,98 @@
+D:/uni/cad/assignments/A3/Q2.v {1 {vlog -work work -vopt -stats=none {D:\uni\cad\assignments\A3\Q2.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Detector
+
+Top level modules:
+	Detector
+
+} {} {}} D:/uni/cad/assignments/A3/Q3_Test.v {0 {vlog -work work -vopt -stats=none {D:\uni\cad\assignments\A3\Q3_Test.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test
+** Error: (vlog-13032) D:\uni\cad\assignments\A3\Q3_Test.v(3): near "IN": Syntax error.
+** Error: (vlog-13032) D:\uni\cad\assignments\A3\Q3_Test.v(6): near "IN": Syntax error.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(10): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(11): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(12): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(13): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(14): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(15): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(16): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(17): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(18): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(19): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:\uni\cad\assignments\A3\Q3_Test.v(20): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13032) D:\uni\cad\assignments\A3\Q3_Test.v(21): near "THE": Syntax error.
+** Error: D:\uni\cad\assignments\A3\Q3_Test.v(24): (vlog-13161) unexpected '$monitor'
+** Error: (vlog-13032) D:\uni\cad\assignments\A3\Q3_Test.v(25): near ":": Syntax error.
+** Error: D:\uni\cad\assignments\A3\Q3_Test.v(28): (vlog-13161) unexpected '$dumpfile'
+** Error: (vlog-13032) D:\uni\cad\assignments\A3\Q3_Test.v(29): near "WHERE": Syntax error.
+** Error: D:\uni\cad\assignments\A3\Q3_Test.v(31): (vlog-13205) Syntax error found in the scope following 'reset'. Is there a missing '::'?
+
+} {4.0 23.0} {}} D:/uni/cad/assignments/A3/Q3.v {0 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A3/Q3.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Machine
+** Error: D:/uni/cad/assignments/A3/Q3.v(14): (vlog-2730) Undefined variable: 'b001'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(14): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(15): (vlog-2730) Undefined variable: 'b010'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(15): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(16): (vlog-2730) Undefined variable: 'b011'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(16): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(17): (vlog-2730) Undefined variable: 'b100'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(17): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(18): (vlog-2730) Undefined variable: 'b101'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(18): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(20): (vlog-2730) Undefined variable: 'b000'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(20): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(21): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(22): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(23): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(24): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(25): near ";": syntax error, unexpected ';'.
+** Warning: D:/uni/cad/assignments/A3/Q3.v(27): (vlog-2260) SystemVerilog feature "reg" encountered in Verilog context.
+** Error: D:/uni/cad/assignments/A3/Q3.v(33): (vlog-2730) Undefined variable: 'IDLE'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(34): (vlog-2730) Undefined variable: 'NICKEL'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(34): (vlog-2730) Undefined variable: 'FIVE'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(35): (vlog-2730) Undefined variable: 'DIME'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(35): (vlog-2730) Undefined variable: 'TEN'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(36): (vlog-2730) Undefined variable: 'QUARTER'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(36): (vlog-2730) Undefined variable: 'TWENTYFIVE'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(42): (vlog-2730) Undefined variable: 'FIFTEEN'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(48): (vlog-2730) Undefined variable: 'TWENTY'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(72): (vlog-2730) Undefined variable: 'b0'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(72): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(77): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(77): (vlog-2730) Undefined variable: 'd0'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(77): near ";": syntax error, unexpected ';'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(78): near ";": syntax error, unexpected ';'.
+** Error: D:/uni/cad/assignments/A3/Q3.v(79): (vlog-2730) Undefined variable: 'dTEN'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(79): near "begin": syntax error, unexpected begin.
+** Error: D:/uni/cad/assignments/A3/Q3.v(79): (vlog-2730) Undefined variable: 'dFIFTEEN'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(79): near "begin": syntax error, unexpected begin.
+** Error: D:/uni/cad/assignments/A3/Q3.v(79): (vlog-2730) Undefined variable: 'NICKEL_DIME'.
+** Error: (vlog-13025) D:/uni/cad/assignments/A3/Q3.v(79): near ":": Syntax error. Statement labels are only allowed in SystemVerilog.
+** Error: D:/uni/cad/assignments/A3/Q3.v(79): (vlog-2730) Undefined variable: 'QUTWENTYFIVE'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(79): near ":": syntax error, unexpected ':'.
+** Error: (vlog-13069) D:/uni/cad/assignments/A3/Q3.v(79): near ";": syntax error, unexpected ';'.
+
+} {4.0 21.0 22.0 46.0} {}} D:/uni/cad/assignments/A3/Q1_Test.v {1 {vlog -work work -vopt -stats=none {D:\uni\cad\assignments\A3\Q1_Test.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Q1_TestBench
+
+Top level modules:
+	Q1_TestBench
+
+} {} {}} D:/uni/cad/assignments/A3/Q1.v {1 {vlog -work work -vopt -stats=none {D:\uni\cad\assignments\A3\Q1.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Park
+
+Top level modules:
+	Park
+
+} {} {}} D:/uni/cad/assignments/A3/Q2_Test.v {1 {vlog -work work -vopt -stats=none {D:\uni\cad\assignments\A3\Q2_Test.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Detector_TestBench
+
+Top level modules:
+	Detector_TestBench
+
+} {} {}}

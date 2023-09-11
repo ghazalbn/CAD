@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/uni/cad/quizes/Q1
+T_opt
+!s110 1650806963
+Vo23H5LbIFTXDnj0?FH`SR3
+04 17 4 work SPQueue_TestBench fast 0
+=1-f4d1088ea049-626550b3-122-49c4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vSPQueue
+!s110 1650806927
+!i10b 1
+!s100 QB`=a70TPcB2jk8i[:blk3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILl9SJl`J;7fnMe9N0ceb_2
+Z2 dD:/uni/cad/quizes/Quiz11
+w1650806909
+8D:/uni/cad/quizes/Quiz11/SPQueue.v
+FD:/uni/cad/quizes/Quiz11/SPQueue.v
+!i122 0
+L0 3 46
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1650806927.000000
+!s107 D:/uni/cad/quizes/Quiz11/SPQueue.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/quizes/Quiz11/SPQueue.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@s@p@queue
+vSPQueue_TestBench
+!s110 1650806953
+!i10b 1
+!s100 JV^M]UW55hnL1V4ckNQ@k2
+R1
+IC?d8o5><P<jcNE;KBlMdi3
+R2
+w1650806917
+8D:/uni/cad/quizes/Quiz11/SPQueue_Test.v
+FD:/uni/cad/quizes/Quiz11/SPQueue_Test.v
+!i122 1
+L0 3 49
+R3
+R4
+r1
+!s85 0
+31
+!s108 1650806953.000000
+!s107 D:/uni/cad/quizes/Quiz11/SPQueue_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/quizes/Quiz11/SPQueue_Test.v|
+!i113 0
+R5
+R0
+n@s@p@queue_@test@bench

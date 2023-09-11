@@ -1,0 +1,429 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: SUPER_ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SUPER_ALU.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SUPER_ALU"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : SUPER_ALU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/uni/cad/project3/CAD_final_project/ALU_utility_functions.vhd" in Library work.
+Package <alu_utility_functions> compiled.
+Package body <alu_utility_functions> compiled.
+Compiling vhdl file "D:/uni/cad/project3/CAD_final_project/ALU_Procedure.vhd" in Library work.
+Architecture alu_procedure of Entity alu_procedure is up to date.
+Compiling vhdl file "D:/uni/cad/project3/CAD_final_project/ALU.vhd" in Library work.
+Architecture behavioral of Entity super_alu is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SUPER_ALU> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SUPER_ALU> in library <work> (Architecture <behavioral>).
+Entity <SUPER_ALU> analyzed. Unit <SUPER_ALU> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SUPER_ALU>.
+    Related source file is "D:/uni/cad/project3/CAD_final_project/ALU.vhd".
+WARNING:Xst:1780 - Signal <number4signal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <number3signal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <number2signal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <number1signal> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0000>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0001>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0002>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0003>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0004>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0005>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0006>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 8-bit latch for signal <$mux0007>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 33: The result of a 8x8-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 2x2-bit multiplication is partially used. Only the 3 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 2x2-bit multiplication is partially used. Only the 3 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 3x3-bit multiplication is partially used. Only the 5 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 48: The result of a 2x2-bit multiplication is partially used. Only the 3 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 33: The result of a 8x8-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+WARNING:Xst:643 - "D:/uni/cad/project3/CAD_final_project/ALU.vhd" line 33: The result of a 8x8-bit multiplication is partially used. Only the 8 least significant bits are used. If you are doing this on purpose, you may safely ignore this warning. Otherwise, make sure you are not losing information, leading to unexpected circuit behavior.
+    Found 8-bit 7-to-1 multiplexer for signal <out3Signal>.
+    Found 3x3-bit multiplier for signal <$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <$mult0001> created at line 48.
+    Found 2x2-bit multiplier for signal <$mult0004> created at line 48.
+    Found 3x3-bit multiplier for signal <$mult0007> created at line 48.
+    Found 3x3-bit multiplier for signal <$mult0008> created at line 48.
+    Found 2x2-bit multiplier for signal <$mult0011> created at line 48.
+    Found 3x3-bit multiplier for signal <$mult0014> created at line 48.
+    Found 3x3-bit multiplier for signal <$mult0015> created at line 48.
+    Found 2x2-bit multiplier for signal <$mult0018> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0002$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0003$mult0000> created at line 48.
+    Found 2x2-bit multiplier for signal <mult0005$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0009$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0010$mult0000> created at line 48.
+    Found 2x2-bit multiplier for signal <mult0012$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0016$mult0000> created at line 48.
+    Found 3x3-bit multiplier for signal <mult0017$mult0000> created at line 48.
+    Found 2x2-bit multiplier for signal <mult0019$mult0000> created at line 48.
+    Found 8x8-bit multiplier for signal <number2$mult0000> created at line 33.
+    Found 8x8-bit multiplier for signal <number4$mult0000> created at line 33.
+    Found 8-bit addsub for signal <out1$addsub0000>.
+    Found 8-bit 7-to-1 multiplexer for signal <out1$mux0000> created at line 27.
+    Found 8-bit addsub for signal <out2$addsub0000>.
+    Found 8x8-bit multiplier for signal <out2$mult0001> created at line 33.
+    Found 8-bit 7-to-1 multiplexer for signal <out2$mux0000> created at line 27.
+    Found 8-bit addsub for signal <out3Signal$addsub0000>.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0000> created at line 22.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0001> created at line 23.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0002> created at line 25.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0003> created at line 27.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0004> created at line 29.
+    Found 8-bit comparator less for signal <Output0$cmp_lt0005> created at line 31.
+    Found 5-bit subtractor for signal <Output0$sub0001> created at line 52.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0000> created at line 22.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0001> created at line 23.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0002> created at line 25.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0003> created at line 27.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0004> created at line 29.
+    Found 8-bit comparator less for signal <Output1$cmp_lt0005> created at line 31.
+    Found 5-bit subtractor for signal <Output1$sub0001> created at line 52.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0000> created at line 22.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0001> created at line 23.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0002> created at line 25.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0003> created at line 27.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0004> created at line 29.
+    Found 8-bit comparator less for signal <Output2$cmp_lt0005> created at line 31.
+    Found 5-bit subtractor for signal <Output2$sub0001> created at line 52.
+    Found 2-bit adder for signal <root$addsub0001> created at line 49.
+    Found 3-bit adder for signal <root$addsub0003> created at line 49.
+    Found 4-bit adder for signal <root$addsub0004> created at line 49.
+    Found 3-bit adder for signal <root$addsub0005> created at line 49.
+    Found 4-bit adder for signal <root$addsub0006> created at line 49.
+    Found 3-bit adder for signal <root$addsub0007> created at line 49.
+    Found 4-bit adder for signal <root$addsub0009> created at line 49.
+    Found 4-bit adder for signal <root$addsub0010> created at line 49.
+    Found 4-bit adder for signal <root$addsub0011> created at line 49.
+    Found 4-bit adder for signal <root$addsub0012> created at line 49.
+    Found 4-bit adder for signal <root$addsub0013> created at line 49.
+    Found 1-bit adder carry out for signal <root$addsub0015> created at line 49.
+    Found 2-bit adder carry out for signal <root$addsub0016> created at line 49.
+    Found 3-bit adder carry out for signal <root$addsub0017> created at line 49.
+    Found 4-bit adder carry out for signal <root$addsub0018> created at line 49.
+    Found 8-bit comparator greatequal for signal <root$cmp_le0000> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0001> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0002> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0003> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0004> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0005> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0006> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0007> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0008> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0009> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0010> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0011> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0012> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0013> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0014> created at line 48.
+    Found 8-bit comparator lessequal for signal <root$cmp_le0015> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0000> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0001> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0002> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0003> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0004> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0005> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0006> created at line 48.
+    Found 4x4-bit multiplier for signal <root$mult0007> created at line 48.
+    Found 2-bit adder for signal <root0$addsub0001> created at line 49.
+    Found 3-bit adder for signal <root0$addsub0003> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0004> created at line 49.
+    Found 3-bit adder for signal <root0$addsub0005> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0006> created at line 49.
+    Found 3-bit adder for signal <root0$addsub0007> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0008> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0010> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0011> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0012> created at line 49.
+    Found 4-bit adder for signal <root0$addsub0013> created at line 49.
+    Found 1-bit adder carry out for signal <root0$addsub0015> created at line 49.
+    Found 2-bit adder carry out for signal <root0$addsub0016> created at line 49.
+    Found 3-bit adder carry out for signal <root0$addsub0017> created at line 49.
+    Found 4-bit adder carry out for signal <root0$addsub0018> created at line 49.
+    Found 8-bit comparator greatequal for signal <root0$cmp_le0000> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0001> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0002> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0003> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0004> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0005> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0006> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0007> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0008> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0009> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0010> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0011> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0012> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0013> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0014> created at line 48.
+    Found 8-bit comparator lessequal for signal <root0$cmp_le0015> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0000> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0001> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0002> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0003> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0004> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0005> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0006> created at line 48.
+    Found 4x4-bit multiplier for signal <root0$mult0007> created at line 48.
+    Found 2-bit adder for signal <root1$addsub0001> created at line 49.
+    Found 3-bit adder for signal <root1$addsub0003> created at line 49.
+    Found 3-bit adder for signal <root1$addsub0004> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0005> created at line 49.
+    Found 3-bit adder for signal <root1$addsub0006> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0007> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0009> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0010> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0011> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0012> created at line 49.
+    Found 4-bit adder for signal <root1$addsub0013> created at line 49.
+    Found 1-bit adder carry out for signal <root1$addsub0015> created at line 49.
+    Found 2-bit adder carry out for signal <root1$addsub0016> created at line 49.
+    Found 3-bit adder carry out for signal <root1$addsub0017> created at line 49.
+    Found 4-bit adder carry out for signal <root1$addsub0018> created at line 49.
+    Found 8-bit comparator greatequal for signal <root1$cmp_le0000> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0001> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0002> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0003> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0004> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0005> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0006> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0007> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0008> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0009> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0010> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0011> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0012> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0013> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0014> created at line 48.
+    Found 8-bit comparator lessequal for signal <root1$cmp_le0015> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0000> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0001> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0002> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0003> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0004> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0005> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0006> created at line 48.
+    Found 4x4-bit multiplier for signal <root1$mult0007> created at line 48.
+    Summary:
+	inferred  51 Adder/Subtractor(s).
+	inferred  45 Multiplier(s).
+	inferred  66 Comparator(s).
+Unit <SUPER_ALU> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 45
+ 2x2-bit multiplier                                    : 6
+ 3x3-bit multiplier                                    : 12
+ 4x4-bit multiplier                                    : 24
+ 8x8-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 51
+ 1-bit adder carry out                                 : 3
+ 2-bit adder                                           : 3
+ 2-bit adder carry out                                 : 3
+ 3-bit adder                                           : 9
+ 3-bit adder carry out                                 : 3
+ 4-bit adder                                           : 21
+ 4-bit adder carry out                                 : 3
+ 5-bit subtractor                                      : 3
+ 8-bit addsub                                          : 3
+# Latches                                              : 8
+ 8-bit latch                                           : 8
+# Comparators                                          : 66
+ 8-bit comparator greatequal                           : 3
+ 8-bit comparator less                                 : 18
+ 8-bit comparator lessequal                            : 45
+# Multiplexers                                         : 3
+ 8-bit 7-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 45
+ 2x2-bit multiplier                                    : 6
+ 3x3-bit multiplier                                    : 12
+ 4x4-bit multiplier                                    : 24
+ 8x8-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 51
+ 1-bit adder carry out                                 : 3
+ 2-bit adder                                           : 3
+ 2-bit adder carry out                                 : 3
+ 3-bit adder                                           : 9
+ 3-bit adder carry out                                 : 3
+ 4-bit adder                                           : 21
+ 4-bit adder carry out                                 : 3
+ 5-bit subtractor                                      : 3
+ 8-bit addsub                                          : 3
+# Latches                                              : 8
+ 8-bit latch                                           : 8
+# Multiplexers                                         : 3
+ 8-bit 7-to-1 multiplexer                              : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <SUPER_ALU> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SUPER_ALU.ngr
+Top Level Output File Name         : SUPER_ALU
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 144
+
+Cell Usage :
+# BELS                             : 6780
+#      AND2                        : 2504
+#      AND3                        : 170
+#      AND4                        : 9
+#      AND7                        : 3
+#      INV                         : 1531
+#      OR2                         : 1513
+#      OR3                         : 42
+#      OR6                         : 3
+#      XOR2                        : 1005
+# FlipFlops/Latches                : 64
+#      LD                          : 64
+# IO Buffers                       : 144
+#      IBUF                        : 48
+#      OBUF                        : 96
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.45 secs
+ 
+--> 
+
+Total memory usage is 4563368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

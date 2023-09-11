@@ -1,0 +1,35 @@
+ISim log file
+Running: D:\uni\cad\project3\CAD_final_project\ALU_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/uni/cad/project3/CAD_final_project/ALU_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 10 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 50 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 90 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 130 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 170 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 210 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 250 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 290 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 330 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 370 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 410 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 450 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 490 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 530 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 570 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 610 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 650 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 690 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 730 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 770 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 810 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 850 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 890 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 930 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+at 970 ns(1), Instance /alu_tb/uut/ : Warning: NUMERIC_STD.TO_SIGNED: vector truncated

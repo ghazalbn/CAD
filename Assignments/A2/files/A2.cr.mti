@@ -1,0 +1,53 @@
+D:/uni/cad/assignments/A2/Q3.v {2 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q3.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PriorityQ
+** Warning: D:/uni/cad/assignments/A2/Q3.v(17): (vlog-2182) 'empty' might be read before written in always_comb or always @* block.
+** Warning: D:/uni/cad/assignments/A2/Q3.v(12): (vlog-2182) 'size' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	PriorityQ
+
+} {} {}} D:/uni/cad/assignments/A2/Q1_TEST.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q1_TEST.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU_TestBench
+
+Top level modules:
+	ALU_TestBench
+
+} {} {}} D:/uni/cad/assignments/A2/Q1.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q1.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module SUM
+-- Compiling module SUB
+-- Compiling module MUL
+-- Compiling module DIV
+-- Compiling module GCD
+-- Compiling module POWER
+-- Compiling module MUX
+-- Compiling module ALU
+
+Top level modules:
+	MUX
+	ALU
+
+} {} {}} D:/uni/cad/assignments/A2/Q2_TEST.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q2_TEST.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module CACHE_TestBench
+
+Top level modules:
+	CACHE_TestBench
+
+} {} {}} D:/uni/cad/assignments/A2/Q3_TEST.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q3_TEST.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PriorityQ_TestBench
+
+Top level modules:
+	PriorityQ_TestBench
+
+} {} {}} D:/uni/cad/assignments/A2/Q2.v {1 {vlog -work work -vopt -stats=none D:/uni/cad/assignments/A2/Q2.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Cache_Controller
+
+Top level modules:
+	Cache_Controller
+
+} {} {}}

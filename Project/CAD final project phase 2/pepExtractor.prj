@@ -1,0 +1,3 @@
+work	"ALU.vhd"
+work	"ALU_Procedure.vhd"
+work	"ALU_utility_functions.vhd"

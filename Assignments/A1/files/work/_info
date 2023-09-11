@@ -1,0 +1,208 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1647417713
+V<cRNk]feZHmRIY`VNN__93
+04 3 4 work MUX fast 0
+=1-f4d1088ea049-62319970-35a-5a60
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1647418557
+VOK0Y>eSP1cH:Q=LdSOMY[1
+04 4 4 work JKFF fast 0
+=1-f4d1088ea049-62319cbb-158-5488
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1647418049
+V0<TYY=R:IIFVOlcf^P1U13
+04 7 4 work Circuit fast 0
+=1-f4d1088ea049-62319ac1-29c-59d8
+R1
+R2
+n@_opt2
+R3
+R0
+vAdd_Sub
+Z4 !s110 1647397780
+!i10b 1
+!s100 b^KVk:H^Pon_]EM8`6S101
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUld1=;V]?=]_z3W3gKI]W2
+Z6 dD:/uni/cad/assignments/A1
+Z7 w1647397771
+Z8 8D:/uni/cad/assignments/A1/Add_Sub.v
+Z9 FD:/uni/cad/assignments/A1/Add_Sub.v
+!i122 8
+L0 3 27
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1647397780.000000
+Z13 !s107 D:/uni/cad/assignments/A1/Add_Sub.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A1/Add_Sub.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@add_@sub
+vCircuit
+Z16 !s110 1647417698
+!i10b 1
+!s100 jmkUddn3H4[5WFD>Y7XUI1
+R5
+I@R1bb]HaK>8HRF8J6^W^@3
+R6
+Z17 w1647417688
+Z18 8D:\uni\cad\assignments\A1\Circuit.v
+Z19 FD:\uni\cad\assignments\A1\Circuit.v
+!i122 14
+L0 4 27
+R10
+R11
+r1
+!s85 0
+31
+Z20 !s108 1647417697.000000
+Z21 !s107 D:\uni\cad\assignments\A1\Circuit.v|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\assignments\A1\Circuit.v|
+!i113 0
+R15
+R2
+n@circuit
+vDecoder
+R16
+!i10b 1
+!s100 6lDT:jecMJ<C`aBP:KSTB2
+R5
+IS]_8g?Z29f89AEjRZ37Y;2
+R6
+R17
+R18
+R19
+!i122 14
+L0 34 26
+R10
+R11
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R15
+R2
+n@decoder
+vEncoder
+R16
+!i10b 1
+!s100 hj`C45XXU07=eC9d`aHPk0
+R5
+IF7@cPDkDIF5IXKZFYf;IY3
+R6
+R17
+R18
+R19
+!i122 14
+L0 62 22
+R10
+R11
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R15
+R2
+n@encoder
+vFA
+R4
+!i10b 1
+!s100 ig=OW9]254?g?hGHljKXU3
+R5
+I4>Sj_9_FIOXo0E;?;G]Vf0
+R6
+R7
+R8
+R9
+!i122 8
+L0 32 20
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+n@f@a
+vJKFF
+!s110 1647362922
+!i10b 1
+!s100 XSKo=86icOl8K?]SbIJEz0
+R5
+I[d^[b2D11^3jL5[_DZFf<0
+R6
+w1647362915
+8D:/uni/cad/assignments/A1/JKFF.v
+FD:/uni/cad/assignments/A1/JKFF.v
+!i122 0
+L0 1 19
+R10
+R11
+r1
+!s85 0
+31
+!s108 1647362921.000000
+!s107 D:/uni/cad/assignments/A1/JKFF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/uni/cad/assignments/A1/JKFF.v|
+!i113 0
+R15
+R2
+n@j@k@f@f
+vMUX
+R16
+!i10b 1
+!s100 j07cQjHAdamd]7HVEOFeQ3
+R5
+I_2E;Lkk8Z:<CkVNSBAoY>0
+R6
+R17
+R18
+R19
+!i122 14
+L0 86 19
+R10
+R11
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R15
+R2
+n@m@u@x

@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/uni/cad/assignments/A3
+vArray_AVG
+Z0 !s110 1652620819
+!i10b 1
+!s100 <a63VkSXi2`diGMni3IOI0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV0@0>@odB<PAob^_g37;e0
+Z2 dD:/uni/cad/mid exam
+Z3 w1652620809
+Z4 8D:\uni\cad\mid exam\Q1.v
+Z5 FD:\uni\cad\mid exam\Q1.v
+!i122 1
+L0 1 17
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1652620819.000000
+!s107 D:\uni\cad\mid exam\Q1.v|
+Z9 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\mid exam\Q1.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+n@array_@a@v@g
+vArray_Median
+R0
+!i10b 1
+!s100 UK2@O2GegVl50=<^XZ<[z3
+R1
+IP40a0H3gm@RLPZ^jDNll;3
+R2
+R3
+R4
+R5
+!i122 1
+L0 20 25
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 D:\uni\cad\mid exam\Q1.v|
+R9
+!i113 0
+R10
+R11
+n@array_@median
+vArray_Mod
+R0
+!i10b 1
+!s100 NOOiU6`:`0RSgFaT6`fzL0
+R1
+I=A=W?fYYH>0ESN?TAnOzH1
+R2
+R3
+R4
+R5
+!i122 1
+L0 47 30
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R11
+n@array_@mod

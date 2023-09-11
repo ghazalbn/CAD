@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/uni/cad/quizes/Quiz11
+T_opt
+!s110 1652602060
+V^hS@Y@LNRBiDSX7@h=1c[2
+04 12 4 work Q1_TestBench fast 0
+=1-f4d1088ea049-6280b4cc-125-25b4
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1652602331
+VTLbRfH<I[>3Y>G]18BS_R0
+04 18 4 work Detector_TestBench fast 0
+=1-f4d1088ea049-6280b5db-2c-42b0
+R1
+R2
+n@_opt1
+R3
+R0
+vDetector
+Z4 !s110 1652602595
+!i10b 1
+!s100 XWlSlQ`@_K9;=IWi5L4060
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT_c5URHli<mo3YPGO0Hho2
+Z6 dD:/uni/cad/assignments/A3
+w1652600771
+8D:\uni\cad\assignments\A3\Q2.v
+FD:\uni\cad\assignments\A3\Q2.v
+!i122 8
+L0 2 73
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1652602595.000000
+!s107 D:\uni\cad\assignments\A3\Q2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\assignments\A3\Q2.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@detector
+vDetector_TestBench
+R4
+!i10b 1
+!s100 X?fBX=P0b<3IbTWbP`AMS0
+R5
+IP1B;0Xk=3XIkMkBEE?RzE0
+R6
+w1652600808
+8D:\uni\cad\assignments\A3\Q2_Test.v
+FD:\uni\cad\assignments\A3\Q2_Test.v
+!i122 10
+L0 2 42
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\uni\cad\assignments\A3\Q2_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\assignments\A3\Q2_Test.v|
+!i113 0
+R10
+R2
+n@detector_@test@bench
+vPark
+R4
+!i10b 1
+!s100 3ZV_4l2kzIJB_Mmlhc>Sm0
+R5
+IWd9DZF@5zkFfa2NXLeNM:1
+R6
+w1652600080
+8D:\uni\cad\assignments\A3\Q1.v
+FD:\uni\cad\assignments\A3\Q1.v
+!i122 7
+L0 2 140
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\uni\cad\assignments\A3\Q1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\assignments\A3\Q1.v|
+!i113 0
+R10
+R2
+n@park
+vQ1_TestBench
+R4
+!i10b 1
+!s100 M`WhNm6ngzMfRgRANBjPo2
+R5
+ILC<=4WcA6YFQ[RFjR=IZF3
+R6
+w1652602040
+8D:\uni\cad\assignments\A3\Q1_Test.v
+FD:\uni\cad\assignments\A3\Q1_Test.v
+!i122 9
+L0 3 46
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:\uni\cad\assignments\A3\Q1_Test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\uni\cad\assignments\A3\Q1_Test.v|
+!i113 0
+R10
+R2
+n@q1_@test@bench
